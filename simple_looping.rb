@@ -38,7 +38,6 @@ def for_iterator(number_of_times)
   n = number_of_times
   for n in 1..number_of_times
     puts "Welcome to Flatiron School's Web Development Course!"
-    n += 1
   end
 end
 
