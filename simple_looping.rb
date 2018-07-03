@@ -35,8 +35,8 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-  n = 1..number_of_times
-  for number in n
+  n = number_of_times
+  for n in 1..number_of_times
     puts "Welcome to Flatiron School's Web Development Course!"
     n += 1
   end
@@ -49,3 +49,11 @@ end
   
 end
 
+def for_iterator(number_of_times)
+  # code your solution here using the "for" keyword
+  c=7
+  for c in 1..7 do
+    puts "Hello Ruby-007!"
+    c-=1
+  end
+end
